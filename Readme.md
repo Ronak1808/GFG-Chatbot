@@ -16,6 +16,20 @@ This chatbot is designed to help users so that they don't have to look up into t
 - **context of question**. So that user doesn't need to mention the course name again and again.
 - Sends the queries to which are not answered by the bot in a **CSV** format so that admin can add the answers for them.
 
+## 👓 Preview
+### Home Page 
+<img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Home.PNG">
+
+### Login Page
+<img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/LoginPage.PNG">
+
+### Chat Feature
+<img src= "https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Chat.PNG">
+
+### Admin access
+<img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Admin.PNG">
+
+
 ## Aproach of chat bot : 
 - Chat bot is created using DialogFlow. DialogFlow supports **Intents** and **Contexts** which are useful for a meaninful chat.
 - Chat bot is trained on various questions on three different courses (DSA, Android Dev, Web Dev). 
@@ -53,17 +67,3 @@ npm install
 npm run dev
 Access website at http://localhost:5173/
 ```
-
-
-## 👓 Preview
-### Home Page 
-<img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Home.PNG">
-
-### Login Page
-<img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/LoginPage.PNG">
-
-### Chat Feature
-<img src= "https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Chat.PNG">
-
-### Admin access
-<img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Admin.PNG">
