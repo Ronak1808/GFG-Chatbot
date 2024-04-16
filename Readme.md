@@ -38,19 +38,22 @@ Apart from the basic Welcome context there are Four important contexts defined :
 For the testing purpose password feature is not added in the admin. 
 
 ## Installation Guide :
+### Clone the Repository in locally
 ```JavaScript
-#[macro_use] extern crate rocket;
-
-#[get("/<name>/<age>")]
-fn hello(name: &str, age: u8) -> String {
-    format!("Hello, {} year old named {}!", age, name)
-}
-
-#[launch]
-fn rocket() -> _ {
-    rocket::build().mount("/hello", routes![hello])
-}
+git clone https://github.com/Ronak1808/GFG-Chatbot.git
 ```
+### Run the following commands one by one
+```JavaScript
+cd backend
+npm install
+npm run dev
+cd..
+cd frontent
+npm install
+npm run dev
+Access website at http://localhost:5173/
+```
+
 
 ## 👓 Preview
 ### Home Page 
