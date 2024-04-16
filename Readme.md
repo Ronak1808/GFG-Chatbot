@@ -1,7 +1,7 @@
 #  CourseWebsite : An AI Powered chatbot
 
 ## 🔗 To see the project
-[CourseWebsit](https://gfg-chatbot.vercel.app/)
+[CourseWebsite](https://gfg-chatbot.vercel.app/)
 
 ##  About
 
@@ -31,6 +31,17 @@ For the testing purpose password feature is not added in the admin.
 
 
 ## 👓 Preview
+### Home Page 
+<img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Home.PNG">
+
+### Login Page
+<img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/LoginPage.PNG">
+
+### Chat Feature
+<img src= "https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Chat.PNG>
+
+### Admin access
+<img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Admin.PNG">
 
 
 ##  Features of Course-Website
