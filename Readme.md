@@ -38,7 +38,7 @@ For the testing purpose password feature is not added in the admin.
 <img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/LoginPage.PNG">
 
 ### Chat Feature
-<img src= "https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Chat.PNG>
+<img src= "https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Chat.PNG">
 
 ### Admin access
 <img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Admin.PNG">
