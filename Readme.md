@@ -8,6 +8,14 @@
 Welcome to the Course chatbot ! This chatbot is designed to assist users in the courses available on the website (DSA, Android and web development). Chat bot is deveoped using DialogFlow an NLP platform by Google. 
  
 
+##  Features of Course-Website
+
+This chatbot is designed to help users so that they don't have to look up into the FAQs. Instead they can directly ask the bot and chatbot can tell the answer. The key features of the project are : 
+- SignIn and SignUp system for personalized chat experince.
+- Admin access system so that Admin can monitor the chats for improvements in the accuracy of chat bot.
+- **context of question**. So that user doesn't need to mention the course name again and again.
+- Sends the queries to which are not answered by the bot in a **CSV** format so that admin can add the answers for them.
+
 ## Aproach of chat bot : 
 - Chat bot is created using DialogFlow. DialogFlow supports **Intents** and **Contexts** which are useful for a meaninful chat.
 - Chat bot is trained on various questions on three different courses (DSA, Android Dev, Web Dev). 
@@ -29,6 +37,20 @@ Apart from the basic Welcome context there are Four important contexts defined :
 - To access the admin feature firstly login from a sample account then on the nav bar admin login will be visible.
 For the testing purpose password feature is not added in the admin. 
 
+## Installation Guide :
+```JavaScript
+#[macro_use] extern crate rocket;
+
+#[get("/<name>/<age>")]
+fn hello(name: &str, age: u8) -> String {
+    format!("Hello, {} year old named {}!", age, name)
+}
+
+#[launch]
+fn rocket() -> _ {
+    rocket::build().mount("/hello", routes![hello])
+}
+```
 
 ## 👓 Preview
 ### Home Page 
@@ -42,12 +64,3 @@ For the testing purpose password feature is not added in the admin.
 
 ### Admin access
 <img src="https://github.com/Ronak1808/GFG-Chatbot/blob/main/demo_img/Admin.PNG">
-
-
-##  Features of Course-Website
-
-This chatbot is designed to help users so that they don't have to look up into the FAQs. Instead they can directly ask the bot and chatbot can tell the answer. The key features of the project are : 
-- SignIn and SignUp system for personalized chat experince.
-- Admin access system so that Admin can monitor the chats for improvements in the accuracy of chat bot.
-- **context of question**. So that user doesn't need to mention the course name again and again.
-- Sends the queries to which are not answered by the bot in a **CSV** format so that admin can add the answers for them.
