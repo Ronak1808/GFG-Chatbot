@@ -1,11 +1,12 @@
 import axios from 'axios';
 import exportFromJSON from 'export-from-json';
 import logo from '../assets/profile.png';
+import { API_BASE_URL} from '../utils/localStorage';
 function Admin() {
 
     const handleClick = async () => {
         try {
-            const response = await axios.get('http://localhost:3000/downloadcsv');
+            const response = await axios.get(`${API_BASE_URL}downloadcsv`);
             if (response.data) {
                 console.log(response.data);
                 const fileName= "Chat-Transcript";
@@ -20,7 +21,7 @@ function Admin() {
     };
     const handleClick2 = async () => {
         try {
-            const response = await axios.get('http://localhost:3000/unans');
+            const response = await axios.get(`${API_BASE_URL}unans`);
             if (response.data) {
                 console.log(response.data);
                 const fileName= "Unanswered-queries";

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Courses from './product/ProductItem';
 import axios from "axios";
-
+import { API_BASE_URL } from '../utils/localStorage';
 // Import your logo image
 import logo from '../assets/logo.png';
 
@@ -49,7 +49,7 @@ export default function HomePage({isLoggedIn, setIsLoggedIn}) {
                 };
 
                 // Make the Axios POST request to the server
-                const response = await axios.post('http://localhost:3000/chat/query', requestBody);
+                const response = await axios.post(`${API_BASE_URL}chat/query`, requestBody);
 
                 // Log the server response
                 console.log("Server response:", response.data);
