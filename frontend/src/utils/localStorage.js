@@ -1,5 +1,5 @@
 export const token_key = 'COURSE_TOKEN'
-export const API_BASE_URL= "http://localhost:3000/"
+export const API_BASE_URL= "https://gfgchatbotapi.vercel.app/"
 export const setToken = (token) => {
   window.localStorage.setItem(token_key, token);
 }
